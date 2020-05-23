@@ -1,0 +1,61 @@
+[
+    { 
+        "group" : "A", 
+        "children" : [
+            { 
+                "name" : "Avengers", 
+                "id" : 22,
+                "plot": "Earth's mightiest heroes must come together and learn to fight as a team if they are going to stop the mischievous Loki and his alien army from enslaving humanity.",
+                "rated": "PG",
+                "runtime": "1 hour 2 min",
+                "released": "1 January 2020",
+                "rating": "6.0",
+                "director": "Jos Whedon",
+                "poster": "https://m.media-amazon.com/images/M/MV5BNDYxNjQyMjAtNTdiOS00NGYwLWFmNTAtNThmYjU5ZGI2YTI1XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg",
+                "trailer": "https://www.youtube.com/watch?v=eOrNdBpGMv8",
+                "genre": "Action, Comedy"
+            }
+        ]
+    },
+    { 
+        "group" : "B", 
+        "children" : [
+            { "name" : "Blade Runner", "id" : 7},
+            { "name" : "Blade Runner 2049", "id" : 12 }
+        ]
+    },
+    { 
+        "group" : "C", 
+        "children" : [
+            { "name" : "Blade Runner", "id" : 7},
+            { "name" : "Blade Runner 2049", "id" : 12 }
+        ]
+    },
+    { 
+        "group" : "D", 
+        "children" : [
+            { "name" : "Blade Runner", "id" : 7},
+            { "name" : "Blade Runner 2049", "id" : 12 }
+        ]
+    },
+    { 
+        "group" : "E", 
+        "children" : [
+            { "name" : "Blade Runner", "id" : 7},
+            { "name" : "Blade Runner 2049", "id" : 12 }
+        ]
+    },
+    { 
+        "group" : "F", 
+        "children" : [
+            { "name" : "Blade Runner", "id" : 7},
+            { "name" : "Blade Runner 2049", "id" : 12 }
+        ]
+    },
+    { 
+        "group" : "P", 
+        "children" : [
+            { "name" : "Paranormal Activity", "id" : 7}       
+        ]
+    }
+]

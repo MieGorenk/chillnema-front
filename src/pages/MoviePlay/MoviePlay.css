@@ -1,0 +1,55 @@
+.play-base {
+    background-color: #1C1F22;
+    min-height: 100vh;
+}
+
+.player {
+    padding-top: 30px;
+    margin: 0 auto;
+    display:block;
+    width: 100%;
+}
+
+.video {
+    margin: 0 auto; 
+    width: 600px;
+}
+
+.movie-play-detail {
+    width: 60%;
+    margin: 0 auto;
+    display: block;
+    padding-bottom: 50px;
+}
+
+.movie-play-title {
+    font-family: Varela;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+
+    color: #EEEEEE;
+}
+
+.movie-play-info {
+    font-family: Varela;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+
+    color: #EEEEEE;
+}
+
+hr {
+    border: 1px solid #393E46;
+}
+
+:root {
+    --plyr-color-main: #00ADB5
+}

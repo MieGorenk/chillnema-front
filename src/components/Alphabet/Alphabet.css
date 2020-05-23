@@ -1,0 +1,20 @@
+.title {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 42px;
+
+    color: #EEEEEE;
+    margin: 0px;
+    margin-top: 15px;
+}
+
+hr {
+    border: 1px solid #393E46;
+}
+
+.letter-container {
+    width: 40%;
+    margin: 0 auto;
+}
