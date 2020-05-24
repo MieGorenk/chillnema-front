@@ -18,7 +18,7 @@ const MoviePlay = () => {
 
     useEffect(() => {
         const fetchData = async () => {
-            const response = await fetch(`https://api.chillnema.net/movies/${id}`)
+            const response = await fetch(`https://www.chillnema.net/api/movies/${id}`)
             const data = await response.json()
             setName(data.Name)
             setSource(data.Source)

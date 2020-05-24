@@ -69,7 +69,7 @@ const HomeMovie2 = () => {
 
     useEffect(() => {
         const fetchData = async () => {
-            const response = await fetch("https://api.chillnema.net/movies")
+            const response = await fetch("https://www.chillnema.net/api/movies")
             const movies = await response.json()
             const sorted_movies = categorizeMovie(movies)
             setMovies(sorted_movies)
