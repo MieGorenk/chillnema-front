@@ -96,7 +96,7 @@ const HomeMovie2 = () => {
                 {loading === true ?
                     <div className="loading">
                         <Loader type="Rings" color="#00ADB5" height={80} width={80} />
-                        <p className="loadinginfo">Getting Our Film Cataogue</p>
+                        <p className="loadinginfo">Getting Our Film Catalogue</p>
                     </div> : <Accordion>
                         {movies.map((alphabet, index) => {
                             return (
@@ -135,6 +135,7 @@ const HomeMovie2 = () => {
                                                                     <p className="score-trailer-element rating-text">{info.Rating}</p>
                                                                     <FaPlay color="#00ADB5" className="score-trailer-element rating-play" />
                                                                     {/* TODO Change to button */}
+                                                                    {/* eslint-disable-next-line  */}
                                                                     <a className="score-trailer trailer-play" onClick={(e) => openModal(e, info.Trailer)}>Play Trailer</a>
                                                                 </div>
                                                                 <div className="plot-container">

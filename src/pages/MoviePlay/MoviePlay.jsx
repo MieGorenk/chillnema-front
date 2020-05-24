@@ -1,5 +1,4 @@
 import React from "react"
-import Plyr from 'react-plyr';
 import ReactPlayer from "react-player"
 import Header from "../../components/Header"
 import "./MoviePlay.css"
